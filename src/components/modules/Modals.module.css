@@ -1,0 +1,60 @@
+.parent {
+  position: fixed;
+  backdrop-filter: blur(3px);
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+.back {
+  display: inline-block;
+  background-color: #d33636;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 1.2 rem;
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+  margin: 30px 0px 0px 30px;
+  cursor: pointer;
+}
+.chart {
+  width: 800px;
+  background-color: #18181c;
+  border: 1px solid #22262e;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.chartChild {
+  width: 760px;
+  height: 300px;
+}
+.imgParent {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  margin-left: 30px;
+}
+.imgParent img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.imgParent p {
+  font-size: 1.1rem;
+}
+button {
+  border: none;
+  background-color: #18181cdb;
+  padding: 5px 10px;
+  color: #3874ff;
+  border: 1px solid #3874ff;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
